@@ -2,7 +2,7 @@ import streamlit as st
 import os
 
 # Set page config
-st.set_page_config(page_title="My Digital Footprint", page_icon="🚀", layout="wide")
+st.set_page_config(page_title="Abakar Baba", page_icon="🚀", layout="wide")
 
 # Sidebar Navigation
 st.sidebar.title("📌 Navigation")
@@ -10,7 +10,7 @@ page = st.sidebar.radio("Go to", ["Home", "Projects", "Skills", "Testimonials", 
 
 # Home Page
 if page == "Home":
-    st.title("🚀 My Digital Footprint – Showcasing My Journey")
+    st.title("Hello, I'm Abakar Baba")
 
     uploaded_image = st.file_uploader("Upload Profile Picture", type=["jpg", "png"])
     if uploaded_image:
